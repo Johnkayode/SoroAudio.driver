@@ -23,8 +23,8 @@ cd SoroAudio.driver
 Create local configuration files from the examples:
 
 ```sh
-cp config/driver.env.sample config/driver.env
-cp config/credentials.env.sample config/credentials.env
+cp config/driver.env.example config/driver.env
+cp config/credentials.env.example config/credentials.env
 ```
 
 The sample driver config builds a two-channel, 48 kHz input device named **Soro Audio**. Adjust `config/driver.env` if needed. The `.env` files are ignored by Git; keep real signing and notarization credentials private. Both files must exist to build, including for local development.
@@ -61,7 +61,7 @@ sudo ./scripts/uninstall.sh
 
 ## Configuration
 
-`config/driver.env.sample` contains the device name, bundle ID, UID, channel count, sample rate, input/output settings, and bundle name. Keep the sample rate and channel count aligned with the audio sent by Soro.
+`config/driver.env.example` contains the device name, bundle ID, UID, channel count, sample rate, input/output settings, and bundle name. Keep the sample rate and channel count aligned with the audio sent by Soro.
 
 ## Credits
 
