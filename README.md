@@ -1,6 +1,6 @@
 # Soro Audio Driver
 
-Soro Audio is an input-only virtual audio driver for macOS. It exposes a microphone endpoint named **Soro Audio** so audio applications can receive a signal supplied by Soro. The driver is built on [BlackHole](https://github.com/ExistentialAudio/BlackHole), customized with Soro’s device identity and audio configuration. Noise cancellation is handled by Soro’s audio-processing software, not by the driver.
+Soro Audio is an input-only virtual audio driver for macOS. It exposes a input device named **Soro Audio** through which apps can send audio to other apps. The driver is built on [BlackHole](https://github.com/ExistentialAudio/BlackHole)
 
 ## Requirements
 

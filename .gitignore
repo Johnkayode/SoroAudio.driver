@@ -1,3 +1,45 @@
-
 config/*env
+
 dist/*
+
+.dist/
+
+# macOS 
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Xcode per-user settings, workspace state, and source-control checkout data.
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+*.moved-aside
+*.mode1v3
+*.mode2v3
+*.pbxuser
+*.perspectivev3
+
+# Xcode build 
+build/
+DerivedData/
+*.hmap
+*.dSYM/
+*.xcarchive/
+*.ipa
+
+# signing files
+*.p12
+*.p8
+*.mobileprovision
+*.provisionprofile
+
+# temp files
+*~
+*.swp
+*.swo
+*.tmp
+*.log
+*.orig
+*.rej
